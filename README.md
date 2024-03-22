@@ -1,2 +1,0 @@
-# nabingithub.io
-web
