@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Resume Page</title>
+<link rel="stylesheet" href="resume.css">
+</head>
+<body >
+
+<header>
+    <h1>Resume Page</h1>
+</header>
+
+<div class="resume-content">
+    <section class="professional-summary">
+        <h2>Professional Summary</h2>
+        <p>[Professional Summary Content]</p>
+    </section>
+
+    <section class="education">
+        <h2>Education</h2>
+        <p>[Education Content]</p>
+    </section>
+
+    <section class="work-experience">
+        <h2>Work Experience</h2>
+        <ul id="work-experience-list">
+            <!-- Work experience items will be dynamically added here -->
+        </ul>
+    </section>
+
+    <section class="skills">
+        <h2>Skills</h2>
+        <p>[Skills Content]</p>
+    </section>
+
+    <section class="projects-portfolio">
+        <h2>Projects or Portfolio</h2>
+        <p>[Projects or Portfolio Content]</p>
+    </section>
+
+    <section class="achievements-awards">
+        <h2>Achievements and Awards</h2>
+        <p>[Achievements and Awards Content]</p>
+    </section>
+
+    <section class="references">
+        <h2>References</h2>
+        <p>[References Content]</p>
+    </section>
+
+    <section class="contact-information">
+        <h2>Contact Information</h2>
+        <p>[Contact Information Content]</p>
+    </section>
+</div>
+
+<div class="add-edit-form">
+    <h2>Add / Edit Resume</h2>
+    <form id="add-work-experience-form">
+        <label for="job-title">Job Title:</label>
+        <input type="text" id="job-title" name="job-title" required>
+        <label for="company-name">Company Name:</label>
+        <input type="text" id="company-name" name="company-name" required>
+        <label for="dates-employment">Dates of Employment:</label>
+        <input type="text" id="dates-employment" name="dates-employment" placeholder="MM/YYYY - MM/YYYY" required>
+        <label for="location">Location:</label>
+        <input type="text" id="location" name="location" required>
+        <label for="responsibilities">Responsibilities:</label>
+        <textarea id="responsibilities" name="responsibilities" rows="4" required></textarea>
+        <button type="submit">Add Work Experience</button>
+    </form>
+
+    <form id="add-skills-form">
+        <label for="technical-skills">Technical Skills:</label>
+        <input type="text" id="technical-skills" name="technical-skills" required>
+        <label for="soft-skills">Soft Skills:</label>
+        <input type="text" id="soft-skills" name="soft-skills" required>
+        <label for="language-proficiency">Language Proficiency:</label>
+        <input type="text" id="language-proficiency" name="language-proficiency" required>
+        <label for="certifications">Certifications:</label>
+        <input type="text" id="certifications" name="certifications" required>
+        <label for="creative-skills">Creative Skills:</label>
+        <input type="text" id="creative-skills" name="creative-skills" required>
+        <button type="submit">Add Skills</button>
+    </form>
+</div>
+
+<script src="resume.js"></script>
+</body>
+</html>

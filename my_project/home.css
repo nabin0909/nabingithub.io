@@ -1,0 +1,52 @@
+/* Basic styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: #0bdd5b;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+  }
+  
+  h1 {
+    margin: 0;
+  }
+  
+  .slider-container {
+    width: 100%;
+    overflow: hidden;
+  }
+  
+  .slider {
+    display: flex;
+    overflow-x: auto;
+  }
+  
+  .slider img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .main-content {
+    padding: 20px;
+  }
+  
+  footer {
+    background-color: #d80505;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+  }
+  
+  .social-links a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+  }
+  
+  /* Add more styling as needed */
+  
